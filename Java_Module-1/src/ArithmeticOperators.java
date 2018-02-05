@@ -29,11 +29,10 @@ public class ArithmeticOperators{
 		
 		//Incremental Operation
 		int age = 27;
-		System.out.println("Age of person with "+ age  +" years in next birthday will be " + age++);
+		System.out.println("Age of person with "+ age  +" years in next birthday will be " + ++age);
 		
 		//decrement operator
 		int month = 11;
-		month = month--;
-		System.out.println("Previous month of " + month + " is " + month--);
+		System.out.println("Previous month of " + month + " is " + --month);
 	}
 }
